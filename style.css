@@ -398,6 +398,16 @@ main{
      -webkit-text-stroke: 0.03em var(--textColor);
      font-size: 70px; /*change later to be responsive*/
 }
+@media only screen and (max-width:600px){
+    #formTitle{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width: 900px) {
+    #formTitle{
+        font-size: 45px;
+    }
+}
 form{
     display: flex;
     flex-direction: column;
