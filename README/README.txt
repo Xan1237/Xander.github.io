@@ -66,7 +66,7 @@ the page is oppen. Finally the css document is devided into three sections using
 individual website. Although there are some areas especially regarding the header and footer where the css tags are reused from diffrent
 sections from the css code.
 
-Dynamic serving 
+Dynamic serving =>
     My website dynamicly serves all three media types, computer, tablets, and phones. It does this by using a combination of the vw and vh and 
     media queries. The vw and vh are used in locations such as the width of the form text boxes to dynamicly change size depending on the width of the
     screen. I use media queries to change the orientation of the website weather thats the flex direction from row to column or the grid template to 
@@ -103,7 +103,10 @@ Form validation =>
     For the radio buttons it uses a foreach loop to iterate and check if one of the buttons is checked. Finally for the slider if the value is equal to 
     0. If any of those conditions are true it sets a variable (valid) to false to prevent form submision and then sets the inner html values to display
     an error message. To continue on this subject a pattern is used to validate the phone number to make sure its in the form 000-000-0000.
-
+Acessibility =>
+    I used the wave Acessibility tool to make sure there were no errors with Acessibility guidelines. I also made certain that the color changes
+    do not cause contrast probelms. The only issue the wave too flagged was a heading level error that I resolved by not skipping to h3 and using
+    an h2 tag instead. i Also addded some aria atributes to my navigation bar and alt text to images.
 
 Bibliographie
 Clean background vector art, icons, and graphics for free download (no date) Vecteezy. Available at: 
