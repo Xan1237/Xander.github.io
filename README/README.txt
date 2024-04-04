@@ -75,7 +75,7 @@ Dynamic serving
 
 JavaScript discription:
 
-eventListener + colorChanger + conditional statment =>
+eventListener + colorChanger + conditional statment + notification =>
     There are Three JavaScript files connected to this website script.js and validate.js
     script.js focues on the color changes aspect of the website that can switch in between light and dark mode. 
     The file is composed of three main functions:
@@ -93,7 +93,9 @@ eventListener + colorChanger + conditional statment =>
 
     To fill out the eventListener requirment I have a button on the baseball picutre on the personal web page that gives an alert if the user
     wants to know who took the picture. This is found in the credits js file as well as the checkLightMode function. 
-    
+
+    I use a notification to welcome people to my website. I did not implement cookies or saved data so it does welcome you more than once...
+
 Form validation =>
     The form validation is all found in the validation.js code file. It uses an arrow function to verify the form elements before it can be submited.
     The first conditionals are to check if the form elements are empty. For the text boxes the JavaScript checks if the input is equal to an empty string.

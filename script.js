@@ -7,7 +7,9 @@
 //#393f4d
 //#1d1e22
 //#feda6a
-localStorage.setItem('first', 'first');
+if(localStorage.getItem('first') != 'second'){
+    localStorage.setItem('first', 'first');
+}
 if("Notification" in window){
     if(Notification.permission ==  "granted"){
         notify();
