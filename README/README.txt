@@ -94,7 +94,8 @@ eventListener + colorChanger + conditional statment + notification =>
     To fill out the eventListener requirment I have a button on the baseball picutre on the personal web page that gives an alert if the user
     wants to know who took the picture. This is found in the credits js file as well as the checkLightMode function. 
 
-    I use a notification to welcome people to my website. I did not implement cookies or saved data so it does welcome you more than once...
+    I use a notification to welcome people to my website. It works on the hosted version of the website but not the local I figure its some thing with
+    how browsers work with local websites. I also added a feature to that is does spam you with the notification on every refresh using localstorege.
 
 Form validation =>
     The form validation is all found in the validation.js code file. It uses an arrow function to verify the form elements before it can be submited.
