@@ -33,7 +33,7 @@ const emailError = document.getElementById("emailError");
 const numberError = document.getElementById("numberError");
 //light mode is pressed
 
-
+//validate the form on submit
 const forme= document.getElementById("forme");
 forme.addEventListener("submit", (event) =>{
     nameError.innerHTML = "";
