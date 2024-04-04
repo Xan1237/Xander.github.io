@@ -7,7 +7,23 @@
 //#393f4d
 //#1d1e22
 //#feda6a
-
+if("Notification" in window){
+    if(Notification.permission ==  "granted"){
+        notify();
+    }
+    else{
+        Notification.requestPermission().then((res) =>{
+            if(res =="granted"){
+                notify();
+            }
+        });
+    }
+}
+function notify(){
+    const notification = new Notification("Welcome to My website!", {
+        body: "Welcome!"
+    });
+}
 //constants for color change
 const wasLightMode = localStorage.getItem('light');
 const wasDarkMode = localStorage.getItem('dark');
