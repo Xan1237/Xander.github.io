@@ -1,5 +1,6 @@
-List of Relative Paths:
+My website is hosted at https://xan1237.github.io/Xander.github.io/index.html (Bonus)
 
+List of Relative Paths:
 videos/archeryvideo
 images/ArcheryLandscape.jpeg
 images/Baseball.jpg
@@ -10,10 +11,40 @@ images/Rugby.jpg
 images/Sculich.jpg
 images/Tabletennis.jpg
 images/Xander.jpg
-audio/ocean-waves.mp3
 videos/archeryvideo.mp4
 images\purpleBack.png
 images\orangeBack.png
+
+File Structure:
+A3_XN543440
+    images
+        ArcheryLandscape
+        back.webp 
+        Baseball.jpg 
+        brain-removebg-preview.png
+        cleanBack.jpg
+        gamejam.jpg
+        rangeBack.png
+        paper.webp
+        purpleBack.png
+        robotics.jpg
+        Rubiks.jpg
+        Rugby.jpg
+        Sculich.jpg
+        star.jpeg
+        Tabletennis.jpg
+        Xander.jpg
+        Xander2.jpg
+    videos
+        archeryvideo.mp4
+    contactForm.html
+    index.html
+    personal.html
+    professional.html
+    Reflection.pdf
+    script.js
+    style.css
+    validate.js
 
 
 
@@ -34,6 +65,13 @@ project and achedemic achevments. The main focus of the page is the personal web
 the page is oppen. Finally the css document is devided into three sections using comments. These sections are generally for every
 individual website. Although there are some areas especially regarding the header and footer where the css tags are reused from diffrent
 sections from the css code.
+
+Dynamic serving 
+    My website dynamicly serves all three media types, computer, tablets, and phones. It does this by using a combination of the vw and vh and 
+    media queries. The vw and vh are used in locations such as the width of the form text boxes to dynamicly change size depending on the width of the
+    screen. I use media queries to change the orientation of the website weather thats the flex direction from row to column or the grid template to 
+    something more mobile friendsly. The only change that had to be made for tablets was some font sizes to make sure they dont span over more than one 
+    line. These media queries can all be found in the css file under their respective comments.
 
 JavaScript discription:
 
