@@ -20,6 +20,7 @@ if("Notification" in window){
                 if(localStorage.getItem('first') == 'first'){
                     notify();
                     localStorage.setItem('first', 'second');
+                    console.log(localStorage.setItem('first', 'second'));
                 }
             }
         });
