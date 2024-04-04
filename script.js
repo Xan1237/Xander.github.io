@@ -7,6 +7,7 @@
 //#393f4d
 //#1d1e22
 //#feda6a
+localStorage.setItem('first', 'first');
 if("Notification" in window){
     if(Notification.permission ==  "granted"){
         notify();
@@ -14,7 +15,10 @@ if("Notification" in window){
     else{
         Notification.requestPermission().then((res) =>{
             if(res =="granted"){
-                notify();
+                if(localStorage.getItem('first') == 'first'){
+                    notify();
+                    localStorage.setItem('first', 'second');
+                }
             }
         });
     }
