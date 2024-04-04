@@ -14,14 +14,14 @@ if("Notification" in window){
     if(Notification.permission ==  "granted"){
         localStorage.setItem('first', 'second');
         console.log(localStorage.setItem('first', 'second'));
-        notify();
+        if(localStorage.getItem('first') == 'first'){
+            notify();
+        }
     }
     else{
         Notification.requestPermission().then((res) =>{
             if(res =="granted"){
-                if(localStorage.getItem('first') == 'first'){
-                    notify();
-                }
+                notify();
             }
         });
     }
