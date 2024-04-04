@@ -21,7 +21,7 @@ if("Notification" in window){
 }
 function notify(){
     const notification = new Notification("Welcome to My website!", {
-        body: "Welcome!"
+        body: "Hope you enjoy!"
     });
 }
 //constants for color change
