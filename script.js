@@ -12,6 +12,8 @@ if(localStorage.getItem('first') != 'second'){
 }
 if("Notification" in window){
     if(Notification.permission ==  "granted"){
+        localStorage.setItem('first', 'second');
+        console.log(localStorage.setItem('first', 'second'));
         notify();
     }
     else{
@@ -19,8 +21,6 @@ if("Notification" in window){
             if(res =="granted"){
                 if(localStorage.getItem('first') == 'first'){
                     notify();
-                    localStorage.setItem('first', 'second');
-                    console.log(localStorage.setItem('first', 'second'));
                 }
             }
         });
