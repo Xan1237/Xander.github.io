@@ -294,6 +294,7 @@ img[src="images/Baseball.jpg"]{
     height:auto;
     width:60px;
     margin-bottom: auto;
+    background-color: var(--backgroundColor);
 }
 #tabletennis{
     grid-row-start: 1;
@@ -354,6 +355,7 @@ p+img{
             margin-left: auto;
             margin-right: auto;
             margin-bottom:auto;
+            background-color: var(--backgroundColor);
         }
         
          p ~ #baseball {
