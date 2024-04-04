@@ -39,6 +39,7 @@ body{
     padding:0;
     background-color: var(--bodyColor);
     min-height: 100vh;
+    width: 100%;
      /*Brown, X.T.*/
     background-image: url(images/Me);
 }
@@ -53,7 +54,7 @@ body{
 #navbar{
     display: flex;
     direction: row;
-    width:100vw;
+    width:100%;
     justify-content: space-around;
     border-color: var(--textColor);
     border-width: 2px;
@@ -169,10 +170,10 @@ p{
         flex-direction: column;
     }
     #light{
-        width:100vw;
+        width:100%;
     }
     #dark{
-        width: 100vw;
+        width: 100%;
     }
 }
 
