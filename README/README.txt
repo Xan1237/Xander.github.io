@@ -1,4 +1,4 @@
-My website is hosted at https://xan1237.github.io/Xander.github.io/index.html (Bonus)
+My website is hosted at https://xan1237.github.io/Xander.github.io/index.html (Bonus) copy paste in browser to get notification
 
 List of Relative Paths:
 videos/archeryvideo

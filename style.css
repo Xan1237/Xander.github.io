@@ -181,7 +181,7 @@ p{
 /* tablet design for navbar */
 @media only screen and (max-width:900px) and (min-width: 600px) {
     #navbar{
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 }
 
