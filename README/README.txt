@@ -76,17 +76,24 @@ Dynamic serving
 JavaScript discription:
 
 eventListener + colorChanger + conditional statment =>
-    There are two JavaScript files connected to this website script.js and validate.js
+    There are Three JavaScript files connected to this website script.js and validate.js
     script.js focues on the color changes aspect of the website that can switch in between light and dark mode. 
-    The file is composed of thre main functions:
+    The file is composed of three main functions:
+
     The change function is called when the light mode button is presssed using an event listener. It also uses the window storage "light" and the wasLighMode 
     variable to swich between light and normal mode.
+
     The darkChange function is called when the dark button is pressed using an eventlister. It does the same thing but 
     instead it uses the dark stored variable using localstorege and the wasDarkmode variable. 
+
     Finally the checkLightMode is my added website element that uses if elseif and else statments. When the website body loads it checks weather 
     the stored variable in light is true and then if so it loads the apropriate color scheme. The elseif statment then checks if the dark stored 
     variable is true and swiches the the apropriate color scheme. Finally if neither of the variables are true it reverts to the original color 
     scheme of the website. This function is called when the body of each webpage loads to check the color scheme.
+
+    To fill out the eventListener requirment I have a button on the baseball picutre on the personal web page that gives an alert if the user
+    wants to know who took the picture. This is found in the credits js file as well as the checkLightMode function. 
+    
 Form validation =>
     The form validation is all found in the validation.js code file. It uses an arrow function to verify the form elements before it can be submited.
     The first conditionals are to check if the form elements are empty. For the text boxes the JavaScript checks if the input is equal to an empty string.

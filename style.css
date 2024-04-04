@@ -277,6 +277,7 @@ img[src="images/Baseball.jpg"]{
     margin-right: auto;
     padding-top: 2px;
 }
+
  p ~ #baseball {
     grid-row-start: 2;
     grid-row-end: 3;
@@ -284,6 +285,15 @@ img[src="images/Baseball.jpg"]{
     grid-column-end: 2;
     height:auto;
     
+}
+#hideText{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height:auto;
+    width:60px;
+    margin-bottom: auto;
 }
 #tabletennis{
     grid-row-start: 1;
@@ -340,6 +350,12 @@ p+img{
             grid-column-start: 1;
             grid-column-end: 2;
         }
+        #hideText{
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom:auto;
+        }
+        
          p ~ #baseball {
             grid-row-start: 2;
             grid-row-end: 3;
