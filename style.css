@@ -50,7 +50,7 @@ body{
 #navbar{
     display: flex;
     direction: row;
-    width:100%;
+    width:100vw;
     justify-content: space-around;
     border-color: var(--textColor);
     border-width: 2px;
@@ -175,8 +175,8 @@ p{
 }
 /* Professional grid layout */
 #projectVideo{
-    width:100%;
-    height:60vh;
+    width:100vw;
+    height: auto;
 }
 main{
     display: grid;
@@ -194,14 +194,20 @@ main{
 }
 #gridfooter{
     grid-area: footerin;
+    width:100vw;
 }
+#List{
+    font-size: 1em;
+}
+
 #projectVideo{
     grid-area: video;
-    width:100%;
+    width:100vw;
     height: 100vh;
 }
 table{
     grid-area: table;
+    width:100vw;
     
 }
  table td{
@@ -213,13 +219,13 @@ table{
     height:auto;
     padding-left: 10px;
 }
-#discription{
+#List{
     grid-area: description;
     display: inline-block;
     list-style:inside;
     margin: auto;
     text-align: left;
-    font-size: 1.7em;
+    font-size: 1.2em;
     list-style-type: circle ;
 }
 li{
@@ -387,6 +393,10 @@ main{
 }
 #pictureOfXander{
     margin:auto;
+}
+.gamejam{
+    font-size: 20px;
+    width: 100vw;
 }
 }
 /* this is the form styling*/
