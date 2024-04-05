@@ -95,7 +95,8 @@ eventListener + colorChanger + conditional statment + notification =>
     wants to know who took the picture. This is found in the credits js file as well as the checkLightMode function. 
 
     I use a notification to welcome people to my website. It works on the hosted version of the website but not the local I figure its some thing with
-    how browsers work with local websites. I also added a feature to that is does spam you with the notification on every refresh using localstorege.
+    how browsers work with local websites. I also added a feature to that is does spam you with the notification on every refresh using localstorege agin 
+    this only works on the hosted version not sure why. This code can be found in the script.js file.
 
 Form validation =>
     The form validation is all found in the validation.js code file. It uses an arrow function to verify the form elements before it can be submited.
