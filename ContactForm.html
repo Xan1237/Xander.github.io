@@ -26,18 +26,18 @@
             </fieldset>
         </fieldset>
         <p id="radioError"></p>
-        <label for="importance" id="urgent">How Urgent is your request</label>
-        <input type="range" max="10" min="0" value="0" id="importance">
+        <label for="importance" id="urgent" >How Urgent is your request</label>
+        <input type="range" max="10" min="0" value="0" id="importance" required>
         <p id="rangeError"></p>
-        <label class="formElement" for="name">Enter Your Name</label>
-        <input class="formElement"  id="name" type="text-area">
+        <label class="formElement" for="name" >Enter Your Name</label>
+        <input class="formElement"  id="name" type="text-area" required>
         <p id="nameError"></p>
-        <label class="formElement" for="email">Enter Your Email Adress</label>
-        <input type="email" class="formElement" id="email">
+        <label class="formElement" for="email" >Enter Your Email Adress</label>
+        <input type="email" class="formElement" id="email" required>
         <p id="emailError"></p>
         <label class="formElement" for="number">Enter Your Phone Number</label>
         <!--Form pattern recognision-->
-        <input type="text" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a phone number in the form 000-000-0000" class="formElement" id="number">
+        <input type="text" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a phone number in the form 000-000-0000" class="formElement" id="number">
         <p id="numberError"></p>
         <button  id="submite">Submit</button>
     </form>
